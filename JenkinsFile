@@ -15,7 +15,7 @@ pipeline
    steps
    {
       withAnt(installation: 'LocalAnt', jdk: 'jdkLocal-8') {
-       sh 'ant compile'
+       sh 'ant init'
     }
    }
    }
